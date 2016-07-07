@@ -1,0 +1,34 @@
+{
+  "name": "imobis",
+  "version": "1.0.0",
+  "description": "Imobis.ru sms",
+  "main": "imobis.js",
+  "scripts": {
+    "doc": "./node_modules/.bin/jsdoc2md imobis.js > API.md"
+  },
+  "pre-commit": [
+    "doc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike1pol/imobis.git"
+  },
+  "keywords": [
+    "sms",
+    "imobis"
+  ],
+  "author": "Mikhail Poluboyarinov <mike1pol@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mike1pol/imobis/issues"
+  },
+  "homepage": "https://github.com/mike1pol/imobis#readme",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^1.3.6",
+    "pre-commit": "^1.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.12.0",
+    "bluebird": "^3.4.1"
+  }
+}
