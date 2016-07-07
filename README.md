@@ -37,8 +37,7 @@ imobis.send(id, [phone, phone], 'message')
     .catch(err => console.error(err));
 ```
 
-# (API)[https://github.com/mike1pol/ipgeobase/blob/master/API.md]
-
+# [API](https://github.com/mike1pol/imobis/blob/master/API.md)
 
 # License
 
